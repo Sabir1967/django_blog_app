@@ -1,8 +1,18 @@
-<!-- templates/post_detail.html-->
+<!-- templates/post_detail.html -->
 {% extends "base.html" %}
 {% block content %}
 <div class="post-entry">
 <h2>{{ post.title }}</h2>
 <p>{{ post.body }}</p>
 </div>
-{% endblock content %}
+{% endblock content %} 
+
+
+<!-- templates/post_detail.html
+{% extends "base.html" %}
+{% block content %}
+<div class="post-entry">
+<h2>{{ object.title }}</h2>
+<p>{{ object.body }}</p>
+</div>
+{% endblock content %}-->
