@@ -2,6 +2,7 @@
 body {
 font-family: 'Source Sans Pro', sans-serif;
 font-size: 18px;
+color: rgb(202, 233, 138);
 }
 header {
 border-bottom: 1px solid #999;
@@ -9,15 +10,16 @@ margin-bottom: 2rem;
 display: flex;
 }
 header h1 a {
-color: red;
+color: rgb(194, 28, 117);
 text-decoration: none;
 }
 .nav-left {
 margin-right: auto;
+background: rgb(70, 163, 225);
 }
 .nav-right {
 display: flex;
-padding-top: 2rem;
+padding-top: 6rem;
 }
 .post-entry {
 margin-bottom: 2rem;
